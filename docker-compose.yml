@@ -60,7 +60,7 @@ services:
   #      - MINIMUM_SECONDS_RECHECK_TIME=3
       # Comment out ports: when using behind a reverse proxy , enable networks: etc.
       ports:
-        - 5000:5000
+        - 0.0.0.0:5000:5000
       restart: unless-stopped
 
      # Used for fetching pages via WebDriver+Chrome where you need Javascript support.
